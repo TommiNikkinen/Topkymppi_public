@@ -1,6 +1,6 @@
-# Topkymppi.com Website
+# Topkymppi.com website
 
-## Website made with nextjs and tailwind. Deployed to vercel
+## News and blog website made with nextjs and tailwind. Deployed to vercel
 ## Check the website at www.topkymppi.com
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
