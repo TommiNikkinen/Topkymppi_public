@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  margin: 15px 0;
+  line-height: 1.8;
+}
+
+.blog-text ul,
+ol {
+  font-size: 100%;
+  line-height: 2.3;
+  margin: 10px 0;
+  border-left: 2px solid black;
+  padding: 10px;
+}
+
+.blog a:hover {
+  cursor: pointer;
+}
+.blog-text a:link,
+.blog-text a:visited {
+  color: #0000ee;
+
+  text-align: center;
+  text-decoration: underline;
+}
+
+.blog-text a:hover,
+.blog-text a:active {
+  color: rgb(64, 113, 202);
+}
+.blog-text pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
+
+.blog-text h1 {
+  font-size: 35px;
+}
+.blog-text h2 {
+  font-size: 30px;
+}
+.blog-text h3 {
+  font-size: 25px;
+}
+.blog-text h4 {
+  font-size: 20px;
+}
+
+.bg-yellow-600 {
+  background-color: #d97705;
+}
+.bg-blue-600 {
+  background-color: #3929eb;
+}
+.bg-green-600 {
+  background-color: #049669;
+}
+.bg-purple-600 {
+  background-color: #7730db;
+}
+.bg-red-600 {
+  background-color: #cc456d;
+}
+.bg-brown-600 {
+  background-color: #7c4b00;
+}
+.footerIcons li {
+  display: inline;
+  text-align: center;
+}
+.footerIcons a:hover {
+  background-color: #000;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 18px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.instagram {
+  background: #78c2fa;
+  color: white;
+}
+
+.tiktok {
+  background: #000000;
+  color: white;
+}
